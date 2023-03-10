@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#1e1e1e">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp">
+
+
+
+        <Button
+            android:id="@+id/week2_2Add"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+
+            android:text="Add"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:backgroundTint="#dd6600"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/week2_2Edit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:text="Edit"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:backgroundTint="#dd6600"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/week2_2Clear"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:backgroundTint="#dd6600"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/week2_2Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#afff"
+        android:layout_marginHorizontal="20dp"
+        android:inputType="number"
+        android:hint="Id"
+        android:textColorHint="#4fff"
+        android:textColor="#fff"/>
+    <EditText
+        android:id="@+id/week2_2Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#afff"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Name"
+        android:textColorHint="#4fff"
+        android:textColor="#fff"/>
+    <EditText
+        android:id="@+id/week2_2Price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#afff"
+        android:layout_marginHorizontal="20dp"
+        android:inputType="number"
+        android:hint="Price"
+        android:textColorHint="#4fff"
+        android:textColor="#fff"/>
+
+    <ListView
+        android:id="@+id/week2_2Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"/>
+
+</LinearLayout>

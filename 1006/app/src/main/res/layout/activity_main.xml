@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingVertical="20dp">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/fun3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fun1"
+        android:textSize="20dp"
+        android:paddingHorizontal="40dp"
+        app:cornerRadius="20dp"
+        android:backgroundTint="#54BC50"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/fun4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fun2"
+        android:textSize="20dp"
+        android:paddingHorizontal="40dp"
+        app:cornerRadius="20dp"
+        android:backgroundTint="#54BC50"/>
+
+</LinearLayout>

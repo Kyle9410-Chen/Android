@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#1e1e1e"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="英哩"
+        android:textSize="30dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"/>
+
+    <EditText
+        android:id="@+id/speed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="球速"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#ffffff"
+        android:textColorHint="#88ffffff"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="姓名"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#ffffff"
+        android:textColorHint="#88ffffff"/>
+
+    <Button
+        android:id="@+id/calculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="20dp"
+        android:text="轉換"
+        android:backgroundTint="#3f3f3f"/>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="20dp"
+        android:text="儲存"
+        android:backgroundTint="#3f3f3f"/>
+
+    <ListView
+        android:id="@+id/dataList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"/>
+
+</LinearLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#1f1f1f">
+
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:text="姓名: "/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ffffff"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:hint="姓名"
+        android:textColorHint="#a1a1a1"
+        android:textColor="@color/white"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp">
+
+        <CheckBox
+            android:id="@+id/checkBoxQ1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="國文"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxQ1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="英文"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxQ1_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="數學"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/answer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="#00ccff"
+        android:text="答案"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="20dp">
+        <RadioButton
+            android:id="@+id/radioButtonQ2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="基本電學"
+            android:textSize="16dp"
+            android:textColor="@color/white"/>
+        <RadioButton
+            android:id="@+id/radioButtonQ2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="數位邏輯"
+            android:textSize="16dp"
+            android:textColor="@color/white"/>
+        <RadioButton
+            android:id="@+id/radioButtonQ2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="程式語言"
+            android:textSize="16dp"
+            android:textColor="@color/white"/>
+    </RadioGroup>
+    <TextView
+        android:id="@+id/answer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="#00ccff"
+        android:text="答案"/>
+
+    <Spinner
+        android:id="@+id/spinnerQ3_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:backgroundTint="@color/white"/>
+    <TextView
+        android:id="@+id/answer3_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="#00ccff"
+        android:text="答案"/>
+
+    <Spinner
+        android:id="@+id/spinnerQ3_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:backgroundTint="@color/white"/>
+    <TextView
+        android:id="@+id/answer3_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="#00ccff"
+        android:text="答案"/>
+
+    <ListView
+        android:id="@+id/listViewQ4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/answer4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="#00ccff"
+        android:text="答案"/>
+
+
+</LinearLayout>

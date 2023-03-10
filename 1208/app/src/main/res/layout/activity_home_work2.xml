@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#1e1e1e">
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="被除數"
+        android:textColorHint="#88ffffff"
+        android:textSize="20dp"
+        android:backgroundTint="#00ffff"
+        android:textColor="#fff"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="除數"
+        android:textColorHint="#88ffffff"
+        android:textSize="20dp"
+        android:backgroundTint="#00ffff"
+        android:textColor="#fff"
+        android:inputType="number"/>
+
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Calculate"
+        android:textSize="20dp"
+        android:backgroundTint="#00aaaa"
+        android:textColor="#fff"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="身高"
+        android:textColorHint="#88ffffff"
+        android:textSize="20dp"
+        android:backgroundTint="#00ffff"
+        android:textColor="#fff"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="體重"
+        android:textColorHint="#88ffffff"
+        android:textSize="20dp"
+        android:backgroundTint="#00ffff"
+        android:textColor="#fff"
+        android:inputType="numberDecimal"/>
+
+
+    <Button
+        android:id="@+id/bmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Calculate"
+        android:textSize="20dp"
+        android:backgroundTint="#00aaaa"
+        android:textColor="#fff"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/bmiAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>

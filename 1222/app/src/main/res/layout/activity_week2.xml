@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#1e1e1e">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp">
+
+        <EditText
+            android:id="@+id/week2Id"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#afff"
+            android:layout_marginTop="10dp"
+            android:hint="Id"
+            android:textColorHint="#4fff"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/week2Filter"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:text="Filter"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:backgroundTint="#dd6600"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/week2Clear"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:backgroundTint="#dd6600"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+
+    <ListView
+        android:id="@+id/week2Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"/>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#1e1e1e">
+
+    <Button
+        android:id="@+id/week1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Week1"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:backgroundTint="#dd6600"/>
+
+    <Button
+        android:id="@+id/week2_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Week2_1"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:backgroundTint="#dd6600"/>
+
+    <Button
+        android:id="@+id/week2_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Week2_2"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:backgroundTint="#dd6600"/>
+
+    <Button
+        android:id="@+id/week3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Week3"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:backgroundTint="#dd6600"/>
+
+</LinearLayout>

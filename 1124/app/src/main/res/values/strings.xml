@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">a1124</string>
+    <array name="q3_2">
+        <item>問題3-2</item>
+        <item>基本電學</item>
+        <item>數位邏輯</item>
+        <item>程式設計</item>
+    </array>
+</resources>

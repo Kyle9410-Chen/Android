@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#BF6BF3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="畫筆顏色"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"/>
+
+        <ImageView
+            android:id="@+id/red"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/red_circle"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/green"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/green_circle"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/blue"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/blue_circle"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/yellow_circle"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/black"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/black_circle"
+            android:adjustViewBounds="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#6BD3F3"
+        android:gravity="center"
+        android:paddingHorizontal="5dp"
+        android:divider="@drawable/divider"
+        android:showDividers="middle">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/clear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#BF6BF3"
+            android:text="清除"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/save"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#BF6BF3"
+            android:text="儲存"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/camera"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#BF6BF3"
+            android:text="照相"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/choose"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#BF6BF3"
+            android:text="選圖"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#6BD3F3"
+        android:gravity="center"
+        android:divider="@drawable/divider"
+        android:showDividers="middle">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/circle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#BF6BF3"
+            android:text="圓形"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/line"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#BF6BF3"
+            android:text="畫線"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/rect"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#BF6BF3"
+            android:text="矩形"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/paint"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#BF6BF3"
+            android:text="塗鴉"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#BF6BF3"
+            android:text="文字"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#BF6BF3"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"/>
+
+        <SeekBar
+            android:id="@+id/strokeWidth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:max="20"
+            android:min="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

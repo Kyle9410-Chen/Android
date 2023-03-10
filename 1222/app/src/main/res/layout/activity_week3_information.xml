@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#1e1e1e">
+
+    <EditText
+        android:id="@+id/week3Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#afff"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:hint="Id"
+        android:textColorHint="#4fff"
+        android:textColor="#fff"/>
+    <EditText
+        android:id="@+id/week3Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#afff"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Name"
+        android:textColorHint="#4fff"
+        android:textColor="#fff"/>
+    <EditText
+        android:id="@+id/week3Price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#afff"
+        android:layout_marginHorizontal="20dp"
+        android:inputType="number"
+        android:hint="Price"
+        android:textColorHint="#4fff"
+        android:textColor="#fff"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+        <Button
+            android:id="@+id/week3Submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:backgroundTint="#dd6600"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/week3Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:backgroundTint="#dd6600"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="10dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
